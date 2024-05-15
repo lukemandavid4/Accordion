@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+body{
+  scroll-behavior: smooth;
+}
 .container__top{
   background: url('../src/assets/accordion.png');
   width: 100%;
@@ -37,4 +40,24 @@
   color: #fff;
   border-radius: 0.2rem;
   cursor: pointer;
+}
+.container__bottom{
+  width: 100%;
+  height: 100vh;
+  background: #008CAA;
+}
+
+
+@media screen and (max-width: 570px) {
+  .container__top{
+    align-items: center;
+  }
+  .container__top--center{
+    margin: 0;
+  }
+}
+@media screen and (max-width: 430px){
+  .container__top--center{
+    padding: 1.5rem;
+  }
 }

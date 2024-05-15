@@ -10,7 +10,9 @@ const App = () => {
           <button type="button">Donate now</button>
         </div>
       </div>
-      <div className="container__bottom"></div>
+      <div className="container__bottom">
+        
+      </div>
     </div>
   )
 }
