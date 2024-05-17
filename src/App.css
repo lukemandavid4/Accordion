@@ -73,7 +73,14 @@ body{
   flex-direction: column;
   align-items: center;
 }
-
+.bottom__accordion{
+  display: flex;
+  flex-direction: column;
+}
+.bottom__accordion--one{
+  background: #fff;
+  display: flex;
+}
 
 
 @media screen and (max-width: 570px) {

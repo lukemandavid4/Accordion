@@ -19,37 +19,37 @@ const App = () => {
           <div className="bottom__accordion">
             <div className="bottom__accordion--one">
               <span>1. Preparedness</span>
+              <span><FaPlus /></span>
             </div>
             <div className="bottom__accordion--two">
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
-              <span><FaPlus /></span>
             </div>
           </div>
           <div className="bottom__accordion">
             <div className="bottom__accordion--one">
               <span>2. Response</span>
+              <span><FaPlus /></span>
             </div>
             <div className="bottom__accordion--two">
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
-              <span><FaPlus /></span>
             </div>
           </div>
           <div className="bottom__accordion">
             <div className="bottom__accordion--one">
               <span>3. Recovery</span>
+              <span><FaPlus /></span>
             </div>
             <div className="bottom__accordion--two">
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
-              <span><FaPlus /></span>
             </div>
           </div>
           <div className="bottom__accordion">
             <div className="bottom__accordion--one">
               <span>4. Mitigation</span>
+              <span><FaPlus /></span>
             </div>
             <div className="bottom__accordion--two">
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
-              <span><FaPlus /></span>
             </div>
           </div>
         </div>
