@@ -1,4 +1,5 @@
 import './App.css'
+import { FaPlus } from "react-icons/fa6";
 
 const App = () => {
   return (
@@ -15,10 +16,42 @@ const App = () => {
           <h1>Browse course modules</h1>
         </div>
         <div className="container__bottom--accordion">
-          <div className="bottom__accordion"></div>
-          <div className="bottom__accordion"></div>
-          <div className="bottom__accordion"></div>
-          <div className="bottom__accordion"></div>
+          <div className="bottom__accordion">
+            <div className="bottom__accordion--one">
+              <span>1. Preparedness</span>
+            </div>
+            <div className="bottom__accordion--two">
+              <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
+              <span><FaPlus /></span>
+            </div>
+          </div>
+          <div className="bottom__accordion">
+            <div className="bottom__accordion--one">
+              <span>2. Response</span>
+            </div>
+            <div className="bottom__accordion--two">
+              <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
+              <span><FaPlus /></span>
+            </div>
+          </div>
+          <div className="bottom__accordion">
+            <div className="bottom__accordion--one">
+              <span>3. Recovery</span>
+            </div>
+            <div className="bottom__accordion--two">
+              <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
+              <span><FaPlus /></span>
+            </div>
+          </div>
+          <div className="bottom__accordion">
+            <div className="bottom__accordion--one">
+              <span>4. Mitigation</span>
+            </div>
+            <div className="bottom__accordion--two">
+              <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
+              <span><FaPlus /></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
