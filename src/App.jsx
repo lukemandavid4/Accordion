@@ -11,7 +11,15 @@ const App = () => {
         </div>
       </div>
       <div className="container__bottom">
-        
+        <div className="container__bottom--header">
+          <h1>Browse course modules</h1>
+        </div>
+        <div className="container__bottom--accordion">
+          <div className="bottom__accordion"></div>
+          <div className="bottom__accordion"></div>
+          <div className="bottom__accordion"></div>
+          <div className="bottom__accordion"></div>
+        </div>
       </div>
     </div>
   )
