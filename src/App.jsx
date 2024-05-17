@@ -5,7 +5,7 @@ import { FaPlus } from "react-icons/fa6";
 const App = () => {
   const [open, setOpen] = useState('false')
   const handleClick = () =>{
-    setOpen(open === true)
+    setOpen(!open)
   }
   return (
     <div className='container'>
@@ -22,11 +22,11 @@ const App = () => {
         </div>
         <div className="container__bottom--accordion">
           <div className="bottom__accordion">
-            <div className="bottom__accordion--one">
+            <div className="bottom__accordion--one" onClick={handleClick}>
               <span>1. Preparedness</span>
               <span><FaPlus /></span>
             </div>
-            <div className="bottom__accordion--two">
+            <div className={`bottom__accordion--two ${open ? 'open' : ''}`}>
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
             </div>
           </div>
