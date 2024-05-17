@@ -68,20 +68,35 @@ body{
   border-radius: 100vw;
 }
 .container__bottom--accordion{
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 .bottom__accordion{
   display: flex;
   flex-direction: column;
+  gap: 0.2rem;
+  flex-basis: 60%;
 }
 .bottom__accordion--one{
   background: #fff;
   display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  align-items: center;
+  cursor: pointer;
 }
-
+.bottom__accordion--two{
+  background: #fff;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  padding: 1.5rem 1rem;
+  display: none;
+}
 
 @media screen and (max-width: 570px) {
   .container__top{

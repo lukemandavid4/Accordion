@@ -1,7 +1,12 @@
+import { useState } from 'react';
 import './App.css'
 import { FaPlus } from "react-icons/fa6";
 
 const App = () => {
+  const [open, setOpen] = useState('false')
+  const handleClick = () =>{
+    setOpen(open === true)
+  }
   return (
     <div className='container'>
       <div className="container__top">
