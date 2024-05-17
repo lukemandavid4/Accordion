@@ -73,13 +73,12 @@ body{
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  flex-wrap: wrap;
 }
 .bottom__accordion{
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  flex-basis: 60%;
+  width: 60%;
 }
 .bottom__accordion--one{
   background: #fff;
@@ -89,6 +88,7 @@ body{
   border-radius: 0.3rem;
   align-items: center;
   cursor: pointer;
+  font-weight: 600;
 }
 .bottom__accordion--two{
   background: #fff;
