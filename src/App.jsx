@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css'
-import { FaPlus } from "react-icons/fa6";
+import { IoIosArrowDown } from "react-icons/io";
 
 const App = () => {
   const [openOne, setOpenOne] = useState(false)
@@ -36,7 +36,7 @@ const App = () => {
           <div className="bottom__accordion">
             <div className={`bottom__accordion--one ${openOne ? 'rotate' : ''}`} onClick={handleClickOne}>
               <span>1. Preparedness</span>
-              <span id='span'><FaPlus /></span>
+              <span id='span'><IoIosArrowDown /></span>
             </div>
             <div className={`bottom__accordion--two ${openOne ? 'open' : ''}`}>
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
@@ -45,7 +45,7 @@ const App = () => {
           <div className="bottom__accordion">
             <div className={`bottom__accordion--one ${openTwo ? 'rotate' : ''}`} onClick={handleClickTwo}>
               <span>2. Response</span>
-              <span id='span'><FaPlus /></span>
+              <span id='span'><IoIosArrowDown /></span>
             </div>
             <div className={`bottom__accordion--two ${openTwo ? 'open' : ''}`}>
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
@@ -54,7 +54,7 @@ const App = () => {
           <div className="bottom__accordion">
             <div className={`bottom__accordion--one ${openThree ? 'rotate' : ''}`} onClick={handleClickThree}>
               <span>3. Recovery</span>
-              <span id='span'><FaPlus /></span>
+              <span id='span'><IoIosArrowDown /></span>
             </div>
             <div className={`bottom__accordion--two ${openThree ? 'open' : ''}`}>
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
@@ -63,7 +63,7 @@ const App = () => {
           <div className="bottom__accordion">
             <div className={`bottom__accordion--one ${openFour ? 'rotate' : ''}`} onClick={handleClickFour}>
               <span>4. Mitigation</span>
-              <span id='span'><FaPlus /></span>
+              <span id='span'><IoIosArrowDown /></span>
             </div>
             <div className={`bottom__accordion--two ${openFour ? 'open' : ''}`}>
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>

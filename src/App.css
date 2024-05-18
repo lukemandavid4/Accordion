@@ -89,24 +89,37 @@ body{
   align-items: center;
   cursor: pointer;
   font-weight: 600;
+  z-index: 999;
 }
 .bottom__accordion--one #span{
   transition: 0.3s;
+  font-size: 1.1rem;
 }
 .bottom__accordion--one.rotate #span{
-  transform: rotate(45deg);
+  transform: rotate(180deg);
 }
 .bottom__accordion--two{
   background: #fff;
   border-bottom-left-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
-  padding: 1.5rem 1rem;
-  display: none;
+  height: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  transform: translateY(-2.4rem);
+  transition: 0.3s transform;
+  opacity: 0;
 }
 .bottom__accordion--two.open{
-  display: block;
+  min-height: 4rem;
+  transform: translate(0);
+  opacity: 1;
 }
-
+@media screen and (max-width: 768px){
+  .bottom__accordion{
+    width: 90%;
+  }
+}
 @media screen and (max-width: 570px) {
   .container__top{
     align-items: center;
