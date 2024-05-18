@@ -95,10 +95,11 @@ body{
   border-bottom-left-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
   padding: 1.5rem 1rem;
-  transform: translateY(-3rem);
-  opacity: 0;
+  display: none;
 }
-/*     */
+.bottom__accordion--two.open{
+  display: block;
+}
 
 @media screen and (max-width: 570px) {
   .container__top{
