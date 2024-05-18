@@ -90,6 +90,12 @@ body{
   cursor: pointer;
   font-weight: 600;
 }
+.bottom__accordion--one #span{
+  transition: 0.3s;
+}
+.bottom__accordion--one.rotate #span{
+  transform: rotate(45deg);
+}
 .bottom__accordion--two{
   background: #fff;
   border-bottom-left-radius: 0.3rem;

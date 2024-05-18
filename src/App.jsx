@@ -34,36 +34,36 @@ const App = () => {
         </div>
         <div className="container__bottom--accordion">
           <div className="bottom__accordion">
-            <div className="bottom__accordion--one" onClick={handleClickOne}>
+            <div className={`bottom__accordion--one ${openOne ? 'rotate' : ''}`} onClick={handleClickOne}>
               <span>1. Preparedness</span>
-              <span><FaPlus /></span>
+              <span id='span'><FaPlus /></span>
             </div>
             <div className={`bottom__accordion--two ${openOne ? 'open' : ''}`}>
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
             </div>
           </div>
           <div className="bottom__accordion">
-            <div className="bottom__accordion--one" onClick={handleClickTwo}>
+            <div className={`bottom__accordion--one ${openTwo ? 'rotate' : ''}`} onClick={handleClickTwo}>
               <span>2. Response</span>
-              <span><FaPlus /></span>
+              <span id='span'><FaPlus /></span>
             </div>
             <div className={`bottom__accordion--two ${openTwo ? 'open' : ''}`}>
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
             </div>
           </div>
           <div className="bottom__accordion">
-            <div className="bottom__accordion--one" onClick={handleClickThree}>
+            <div className={`bottom__accordion--one ${openThree ? 'rotate' : ''}`} onClick={handleClickThree}>
               <span>3. Recovery</span>
-              <span><FaPlus /></span>
+              <span id='span'><FaPlus /></span>
             </div>
             <div className={`bottom__accordion--two ${openThree ? 'open' : ''}`}>
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
             </div>
           </div>
           <div className="bottom__accordion">
-            <div className="bottom__accordion--one" onClick={handleClickFour}>
+            <div className={`bottom__accordion--one ${openFour ? 'rotate' : ''}`} onClick={handleClickFour}>
               <span>4. Mitigation</span>
-              <span><FaPlus /></span>
+              <span id='span'><FaPlus /></span>
             </div>
             <div className={`bottom__accordion--two ${openFour ? 'open' : ''}`}>
               <span>20 word synopsis to go here explaining exactly what this modules is about. More useful as I now know what this is.</span>
